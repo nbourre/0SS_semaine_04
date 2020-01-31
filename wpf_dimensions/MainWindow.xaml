@@ -1,0 +1,37 @@
+﻿<Window x:Class="wpf_dimensions.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_dimensions"
+        mc:Ignorable="d"
+        Title="Démonstration sur les dimensions" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" x:Name="btn00" BorderBrush="Red" FontSize="24" 
+                Height="45"
+                Content="Bonjour le monde!"/>
+        <TextBlock Grid.Row="0" Grid.Column="1" x:Name="Size00" FontSize="24" Background="AliceBlue"/>
+        <Button Grid.Row="1" Grid.Column="0" x:Name="btn10" BorderBrush="Red" FontSize="24"
+                Height="45" MinWidth="240" MaxWidth="450"
+                Content="Bonjour le monde!"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" x:Name="Size11" FontSize="24" Background="AliceBlue"/>
+        <Button Grid.Row="2" Grid.Column="0" x:Name="btn20" BorderBrush="Red" FontSize="24"
+                Height="45" Width="350"
+                Content="Bonjour le monde!"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" x:Name="Size12" FontSize="24" Background="AliceBlue"/>
+        <CheckBox Grid.Row="3" Content="Visibilité" VerticalAlignment="Center" Margin="10" FontSize="24" 
+                  VerticalContentAlignment="Center" Name="chkVisibilite"
+                  IsThreeState="True"/>
+        <TextBlock Grid.Row="3" Grid.Column="1" x:Name="Visibilite22" FontSize="24" Background="AliceBlue"/>
+    </Grid>
+</Window>
