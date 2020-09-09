@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_menus_outils_statut", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_dimensions", "wpf_dimensions\wpf_dimensions.csproj", "{F5ED11F8-40BC-4C20-87B2-F1DAB58CFB85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf_listview", "wpf_listview\wpf_listview.csproj", "{55E6F2F5-4779-4F1D-8B5C-824FCFE8AF00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_listview", "wpf_listview\wpf_listview.csproj", "{55E6F2F5-4779-4F1D-8B5C-824FCFE8AF00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demo_classe_h20_s03", "demo_classe_h20_s03\demo_classe_h20_s03.csproj", "{2143C15C-CB99-4EE2-83F1-72CA35B14D3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_images_multiples", "wpf_images_multiples\wpf_images_multiples.csproj", "{AF0660B9-62D4-4BA4-A654-3E0FEAEEE2D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{55E6F2F5-4779-4F1D-8B5C-824FCFE8AF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55E6F2F5-4779-4F1D-8B5C-824FCFE8AF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55E6F2F5-4779-4F1D-8B5C-824FCFE8AF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2143C15C-CB99-4EE2-83F1-72CA35B14D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2143C15C-CB99-4EE2-83F1-72CA35B14D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2143C15C-CB99-4EE2-83F1-72CA35B14D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2143C15C-CB99-4EE2-83F1-72CA35B14D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0660B9-62D4-4BA4-A654-3E0FEAEEE2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0660B9-62D4-4BA4-A654-3E0FEAEEE2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0660B9-62D4-4BA4-A654-3E0FEAEEE2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0660B9-62D4-4BA4-A654-3E0FEAEEE2D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
