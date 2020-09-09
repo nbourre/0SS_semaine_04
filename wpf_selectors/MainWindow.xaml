@@ -16,6 +16,7 @@
             <system:DateTime>01/01/2020</system:DateTime>
             <system:DateTime>01/02/2020</system:DateTime>
             <system:DateTime>01/03/2020</system:DateTime>
+            <system:DateTime>12/25/2020</system:DateTime>
         </ComboBox>
 
         <ComboBox IsEditable="True" Width="120" Height="30" Margin="12" FontSize="16" SelectionChanged="ComboBox_SelectionChanged">
